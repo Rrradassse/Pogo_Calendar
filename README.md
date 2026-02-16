@@ -1,2 +1,44 @@
 # Pogo_Calendar
 Calendrier des événements Pokemon Go
+
+# 📅 Pokémon GO Events Calendar (Version FR)
+
+Ce projet automatise la génération d'un calendrier au format `.ics` regroupant tous les événements officiels de **Pokémon GO**. Il est conçu pour s'intégrer parfaitement dans Google Calendar, Outlook ou Apple Calendar avec des descriptions détaillées en français.
+
+## 🛠️ Fonctionnement & Contenu
+
+Le script analyse les données de **Pokékalos** (référence francophone) pour enrichir chaque événement avec des informations stratégiques que l'on ne trouve pas toujours dans les flux standards :
+
+* **🎁 Bonus d'événement** : Multiplicateurs de PX, Poussière d'Étoile, bonbons, etc.
+* **🌿 Apparitions** : Liste des Pokémon sauvages et chromatiques (shiny).
+* **👊 Raids & 🥚 Œufs** : Détails des boss de raids et des éclosions.
+* **📋 Études** : Aperçu des quêtes de terrain et des études spéciales.
+* **🔗 Liens direct** : Chaque événement contient un lien vers le guide complet.
+
+## ⚖️ Propriété Intellectuelle et Crédits
+
+Ce projet est un outil **non officiel** et bénévole. Il respecte le travail des créateurs et des ayants droit.
+
+### Sources Officielles
+* **Niantic / The Pokémon Company** : Tous les noms de Pokémon, images et concepts sont la propriété de Niantic et de ses partenaires. Le lien officiel [https://pokemongo.com/fr/](https://pokemongo.com/fr/) est systématiquement cité dans les descriptions des événements.
+
+### Sources Communautaires (Crédits)
+* **Pokékalos** : Le moteur de scraping utilise les données de [pokekalos.fr](https://www.pokekalos.fr/pkmnevents). Un immense merci à leur équipe pour leur travail colossal de documentation.
+* **Infographies** : Le calendrier redirige vers les analyses de [Margxt](https://www.margxt.fr/) pour aider les joueurs à visualiser les événements.
+* **Expertise** : Pensées pour le travail d'Aymeric Monart (Pokémon GO Francophone) dont la passion inspire la communauté.
+
+### Note aux ayants droit
+Si l'utilisation de ces données ou liens pose le moindre problème de droit de propriété, merci de bien vouloir me contacter directement via une **"Issue"** sur ce dépôt GitHub avant toute démarche de retrait ou action légale. Je m'engage à modifier ou retirer le contenu litigieux immédiatement après signalement.
+
+---
+
+## 🚀 Comment s'abonner ?
+
+1.  **Lancement** : Allez dans l'onglet **Actions** de ce dépôt et lancez le "Workflow" manuellement (bouton **Run workflow**).
+2.  **Fichier** : Une fois le robot terminé, cliquez sur le fichier `pogo_france_details.ics` qui apparaît dans la liste de vos fichiers.
+3.  **Lien Raw** : Cliquez sur le bouton **"Raw"** en haut à droite du contenu du fichier.
+4.  **URL** : Copiez l'URL de la page blanche qui s'affiche (elle commence par `https://raw.githubusercontent.com/...`).
+5.  **Agenda** :
+    * **Google Calendar** : Cliquez sur le `+` à côté de "Autres agendas" -> "À partir de l'URL".
+    * **Outlook** : "Ajouter un calendrier" -> "S'abonner à partir du Web".
+6.  **Terminé !** Votre agenda se mettra à jour tout seul chaque jour à 4h00 du matin.
