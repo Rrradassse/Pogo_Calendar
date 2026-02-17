@@ -1,0 +1,39 @@
+name: Update Pokemon GO Calendar
+
+on:
+  schedule:
+    # Lance le script tous les jours à 03h00 du matin (UTC)
+    - cron: '0 3 * * *'
+  workflow_dispatch: # Permet de le lancer manuellement si besoin
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+
+      - name: Run script
+        run: |
+          python main.py
+
+      - name: Commit and Push changes
+        run: |
+          git config --global user.name 'GitHub Action'
+          git config --global user.email 'action@github.com'
+          git add *.ics
+          # Ne commit que s'il y a des changements
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Mise à jour du calendrier 📅" && git push)
