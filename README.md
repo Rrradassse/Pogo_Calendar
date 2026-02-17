@@ -34,5 +34,7 @@ Si l'utilisation de ces données ou liens pose le moindre problème de droit de 
 
 ## 🚀 Comment s'abonner ?
 
-1.  **Lancement** :   DEPUIS ANDROID : https://calendar.google.com/calendar/r?cid=https://raw.githubusercontent.com/Rrradassse/Pogo_Calendar/main/pogo_calendar_Mag.ics .Ne pas télécharger mais s'abonner, car sinon les mises à jour ne se feront pas!
-2.                    DEPUIS UN CALENDRIER GOOGLE SUR PC  : aller sur "Autres calendriers" -> s'abonner puis "ajouter depuis l'URL" en copiant l'URL suivant  : https://raw.githubusercontent.com/Rrradassse/Pogo_Calendar/main/pogo_calendar_Mag.ics 
+1.  **Lancement** :   DEPUIS ANDROID :
+2.                          https://calendar.google.com/calendar/r?cid=https://raw.githubusercontent.com/Rrradassse/Pogo_Calendar/main/pogo_calendar_Mag.ics .Ne pas télécharger mais s'abonner, car sinon les mises à jour ne se feront pas!
+3.                    DEPUIS UN CALENDRIER GOOGLE SUR PC  : aller sur "Autres calendriers" -> s'abonner puis "ajouter depuis l'URL" en copiant l'URL suivant  :
+4.                          https://raw.githubusercontent.com/Rrradassse/Pogo_Calendar/main/pogo_calendar_Mag.ics 
