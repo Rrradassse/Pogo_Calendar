@@ -77,7 +77,7 @@ def get_margxt_ultimate():
     
     # On scanne large : -2 mois à +5 mois
     months_to_scan = []
-    for i in range(-2, 6):
+    for i in range(-2, 24):
         d = today + timedelta(days=i*30)
         months_to_scan.append((d.year, d.month))
     months_to_scan = sorted(list(set(months_to_scan))) # Dédoublonnage
@@ -255,4 +255,5 @@ def main():
     print("👉 Les gros events (Niantic) et le Nouvel An (Margxt) devraient être là.")
 
 if __name__ == "__main__":
+
     main()
