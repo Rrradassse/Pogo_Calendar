@@ -34,11 +34,4 @@ Si l'utilisation de ces données ou liens pose le moindre problème de droit de 
 
 ## 🚀 Comment s'abonner ?
 
-1.  **Lancement** : Allez dans l'onglet **Actions** de ce dépôt et lancez le "Workflow" manuellement (bouton **Run workflow**).
-2.  **Fichier** : Une fois le robot terminé, cliquez sur le fichier `pogo_calendar_Mag.ics` qui apparaît dans la liste de vos fichiers.
-3.  **Lien Raw** : Cliquez sur le bouton **"Raw"** en haut à droite du contenu du fichier.
-4.  **URL** : Copiez l'URL de la page blanche qui s'affiche (elle commence par `https://raw.githubusercontent.com/...`).
-5.  **Agenda** :
-    * **Google Calendar** : Cliquez sur le `+` à côté de "Autres agendas" -> "À partir de l'URL".
-    * **Outlook** : "Ajouter un calendrier" -> "S'abonner à partir du Web".
-6.  **Terminé !** Votre agenda se mettra à jour tout seul chaque jour à 4h00 du matin.
+1.  **Lancement** : https://calendar.google.com/calendar/r?cid=https://raw.githubusercontent.com/Rrradassse/Pogo_Calendar/main/pogo_calendar_Mag.ics .Ne pas télécharger mais s'abonner, car sinon les mises à jour ne se feront pas! 
