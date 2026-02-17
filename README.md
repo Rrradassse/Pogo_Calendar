@@ -35,7 +35,7 @@ Si l'utilisation de ces données ou liens pose le moindre problème de droit de 
 ## 🚀 Comment s'abonner ?
 
 1.  **Lancement** : Allez dans l'onglet **Actions** de ce dépôt et lancez le "Workflow" manuellement (bouton **Run workflow**).
-2.  **Fichier** : Une fois le robot terminé, cliquez sur le fichier `pogo_france_details.ics` qui apparaît dans la liste de vos fichiers.
+2.  **Fichier** : Une fois le robot terminé, cliquez sur le fichier `pogo_calendar_Mag.ics` qui apparaît dans la liste de vos fichiers.
 3.  **Lien Raw** : Cliquez sur le bouton **"Raw"** en haut à droite du contenu du fichier.
 4.  **URL** : Copiez l'URL de la page blanche qui s'affiche (elle commence par `https://raw.githubusercontent.com/...`).
 5.  **Agenda** :
