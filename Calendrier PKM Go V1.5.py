@@ -144,72 +144,87 @@ def get_margxt_ultimate():
 
 # --- SCRAPER 2 : NIANTIC (LE DÉTAILLANT) ---
 def get_niantic_ultimate():
-    print("\n🌍 2. Scan Niantic (Events + News Deep Scan)...")
+    print("🌍 Scan Niantic (Listing Officiel)...")
     scraped = []
-    # On scanne Events ET News
-    urls = ["https://pokemongo.com/fr/events/", "https://pokemongo.com/fr/news/"]
-    seen_urls = set()
-
-    for url in urls:
-        try:
-            res = requests.get(url, headers={"User-Agent": "Mozilla/5.0"})
-            soup = BeautifulSoup(res.text, 'html.parser')
+    
+    # 1. On lit d'abord la LISTE OFFICIELLE /events/ (Les dates y sont toujours justes)
+    try:
+        res = requests.get("https://pokemongo.com/fr/events/", headers={"User-Agent": "Mozilla/5.0"})
+        soup = BeautifulSoup(res.text, 'html.parser')
+        
+        # On cherche toutes les cartes d'événements
+        for card in soup.find_all('div', class_='event-card'): # Selecteur générique, on adapte au contenu
+            # Fallback : Niantic utilise souvent des balises <pg-date-format> directement dans la liste
+            date_tag = card.find('pg-date-format') or card.find_next('pg-date-format')
+            link_tag = card.find('a')
             
-            # Sur la page News, on doit chercher les liens d'articles
-            if "news" in url:
-                links = [a['href'] for a in soup.find_all('a', href=re.compile(r'/news/'))][:8] # Top 8 news
-            else:
-                links = [a['href'] for a in soup.find_all('a', href=re.compile(r'/events/'))]
-
-            for href in links:
+            # Si on trouve une date et un lien dans la liste
+            if date_tag and link_tag and date_tag.has_attr('startdate'):
+                href = link_tag['href']
                 full_link = f"https://pokemongo.com{href}" if not href.startswith('http') else href
-                if full_link in seen_urls: continue
-                seen_urls.add(full_link)
+                title = link_tag.get_text(strip=True) or "Événement Niantic"
                 
-                # ON ENTRE DANS L'ARTICLE
+                # Récupération des dates (Fiable à 100% depuis la liste)
+                s_dt = datetime.strptime(date_tag['startdate'], "%Y-%m-%d").replace(hour=10)
+                e_str = date_tag.get('enddate')
+                e_dt = datetime.strptime(e_str, "%Y-%m-%d").replace(hour=20) if e_str else s_dt.replace(hour=20)
+                
+                # On va chercher l'image et les bonus dans la page détail
                 try:
                     art_res = requests.get(full_link, headers={"User-Agent": "Mozilla/5.0"}, timeout=5)
                     art_soup = BeautifulSoup(art_res.text, 'html.parser')
-                    
-                    # On cherche la DATE CACHÉE <pg-date-format>
-                    date_tag = art_soup.find('pg-date-format')
-                    if not date_tag or not date_tag.has_attr('startdate'): continue
-
-                    # Récup infos
-                    title_tag = art_soup.find(class_=re.compile(r'title|heading'))
-                    title = title_tag.get_text(strip=True) if title_tag else "Événement"
-                    
-                    # On ignore si c'est une heure vedette (Margxt le fait mieux)
-                    if any(x in title.lower() for x in ["heure vedette", "heure de raids", "max monday"]): continue
-
-                    s_str = date_tag['startdate']
-                    e_str = date_tag.get('enddate')
-                    
-                    s_dt = datetime.strptime(s_str, "%Y-%m-%d").replace(hour=10)
-                    e_dt = datetime.strptime(e_str, "%Y-%m-%d").replace(hour=20) if (e_str and e_str!=s_str) else s_dt.replace(hour=20)
-                    
-                    # Image
                     img = art_soup.find('img')['src'] if art_soup.find('img') else ""
                     
-                    # Détails (Bonus)
                     content = art_soup.find('section', class_=re.compile(r'body|content')) or art_soup
                     bonuses = [li.get_text(" ", strip=True) for li in content.find_all('li') 
-                               if any(k in li.get_text() for k in ["XP", "Bonbon", "Poussière", "Eclosion"])]
-                    desc_bonus = "\n• ".join(bonuses[:5])
+                               if any(k in li.get_text() for k in ["XP", "Bonbon", "Poussière", "Distance"])]
+                    desc = "\n• ".join(bonuses[:6])
+                except:
+                    img = ""
+                    desc = "Voir détails sur le site."
 
-                    uid = generate_uid("NIA", s_str, title)
+                uid = generate_uid("NIA", s_dt.strftime("%Y%m%d"), title)
+                scraped.append({
+                    "uid": uid,
+                    "summary": f"🎉 {title}",
+                    "start": s_dt,
+                    "end": e_dt,
+                    "desc": f"🖼️ {img}\n📝 {desc}\n🔗 {full_link}"
+                })
+    except Exception as e:
+        print(f"Erreur Listing Events: {e}")
+
+    # 2. On complète avec les NEWS (Pour ce qui n'est pas encore dans l'agenda)
+    # (Copie simplifiée de l'ancien scanner news pour ne rien rater)
+    try:
+        res = requests.get("https://pokemongo.com/fr/news/", headers={"User-Agent": "Mozilla/5.0"})
+        soup = BeautifulSoup(res.text, 'html.parser')
+        for a in soup.find_all('a', href=re.compile(r'/news/'))[:8]:
+            full_link = f"https://pokemongo.com{a['href']}"
+            # Si on l'a déjà trouvé dans /events/, on passe
+            if any(ev['desc'].endswith(full_link) for ev in scraped): continue
+            
+            try:
+                # Analyse rapide de la page news
+                art = requests.get(full_link, headers={"User-Agent": "Mozilla/5.0"}).text
+                if 'startdate="' in art:
+                    s_str = re.search(r'startdate="([0-9-]+)"', art).group(1)
+                    titre = re.search(r'<title>(.*?)</title>', art).group(1).split('|')[0].strip()
                     
+                    if any(x in titre.lower() for x in ["vedette", "raids", "dev diary"]): continue
+                    
+                    dt = datetime.strptime(s_str, "%Y-%m-%d").replace(hour=10)
+                    uid = generate_uid("NIA", s_str.replace("-",""), titre)
                     scraped.append({
-                        "uid": uid,
-                        "summary": f"🎉 {title}",
-                        "start": s_dt,
-                        "end": e_dt,
-                        "desc": f"🖼️ {img}\n📝 {desc_bonus}\n🔗 {full_link}"
+                        "uid": uid, 
+                        "summary": f"🎉 {titre}", 
+                        "start": dt, 
+                        "end": dt.replace(hour=20), 
+                        "desc": f"🔗 {full_link}"
                     })
-                    print(f"   + [Niantic] Trouvé : {title}")
-
-                except: continue
-        except: continue
+            except: continue
+    except: pass
+    
     return scraped
 
 # --- MOTEUR PRINCIPAL ---
@@ -244,6 +259,8 @@ def main():
     cal.add('prodid', '-//PogoFinal//FR')
     cal.add('version', '2.0')
     cal.add('X-WR-CALNAME', 'PkmGo_Mag')
+    cal.add('X-WR-TIMEZONE', 'Europe/Paris')
+    
     
     for e in db.values():
         cal.add_component(e)
@@ -257,3 +274,4 @@ def main():
 if __name__ == "__main__":
 
     main()
+
