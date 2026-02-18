@@ -2,6 +2,7 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//PogoFinal//FR
 X-WR-CALNAME:PkmGo_Mag
+X-WR-TIMEZONE:Europe/Paris
 BEGIN:VEVENT
 SUMMARY:📅 Étude magistrale : Capture précieuse
 DTSTART:20250202T100000
