@@ -702,4 +702,12 @@ UID:MGX-20260224-kaiminus@pogo.script
 DESCRIPTION:🎁 Poussière d’étoiles x2 à la capture\n🔗 https://ww
  w.margxt.fr/le-planning-des-evenements-de-fevrier-2026-dans-pokemon-go/
 END:VEVENT
+BEGIN:VEVENT
+SUMMARY:💥 Bulbizarre\, Salamèche et Carapuce
+DTSTART:20260223T180000
+DTEND:20260223T190000
+UID:MGX-20260223-bulbizarresalam@pogo.script
+DESCRIPTION:🎁 \n🔗 https://www.margxt.fr/le-planning-des-evenements-d
+ e-fevrier-2026-dans-pokemon-go/
+END:VEVENT
 END:VCALENDAR
