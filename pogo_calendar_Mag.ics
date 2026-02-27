@@ -870,4 +870,12 @@ UID:MGX-20260325-mgadmolosse@pogo.script
 DESCRIPTION:🎁 \n🔗 https://www.margxt.fr/le-planning-des-evenements-d
  e-mars-2026-dans-pokemon-go/
 END:VEVENT
+BEGIN:VEVENT
+SUMMARY:📅 Événement de célébration pour Pokémon Pokopia
+DTSTART:20260310T100000
+DTEND:20260316T200000
+UID:MGX-20260310-vnementdeclbrat@pogo.script
+DESCRIPTION:🎁 \n🔗 https://www.margxt.fr/le-planning-des-evenements-d
+ e-mars-2026-dans-pokemon-go/
+END:VEVENT
 END:VCALENDAR
