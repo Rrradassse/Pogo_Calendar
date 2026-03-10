@@ -751,7 +751,7 @@ DESCRIPTION:🎁 \n🔗 https://www.margxt.fr/le-planning-des-evenements-d
  e-mars-2026-dans-pokemon-go/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:📅 Journée de Combats Max
+SUMMARY:📅 Journée de Combats Max Pikachu Gigamax
 DTSTART:20260328T100000
 DTEND:20260328T200000
 UID:MGX-20260328-journedecombats@pogo.script
@@ -899,6 +899,14 @@ SUMMARY:📅 Journée étude aquatique
 DTSTART:20260321T100000
 DTEND:20260321T200000
 UID:MGX-20260321-journetudeaquat@pogo.script
+DESCRIPTION:🎁 \n🔗 https://www.margxt.fr/le-planning-des-evenements-d
+ e-mars-2026-dans-pokemon-go/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:📅 Moments électrisants
+DTSTART:20260331T100000
+DTEND:20260406T200000
+UID:MGX-20260331-momentslectrisa@pogo.script
 DESCRIPTION:🎁 \n🔗 https://www.margxt.fr/le-planning-des-evenements-d
  e-mars-2026-dans-pokemon-go/
 END:VEVENT
