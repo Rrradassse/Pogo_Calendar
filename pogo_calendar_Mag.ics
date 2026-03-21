@@ -910,4 +910,172 @@ UID:MGX-20260331-momentslectrisa@pogo.script
 DESCRIPTION:🎁 \n🔗 https://www.margxt.fr/le-planning-des-evenements-d
  e-mars-2026-dans-pokemon-go/
 END:VEVENT
+BEGIN:VEVENT
+SUMMARY:📅 Journée de raids Fashion
+DTSTART:20260404T100000
+DTEND:20260404T200000
+UID:MGX-20260404-journederaidsfa@pogo.script
+DESCRIPTION:🎁 \n🔗 https://www.margxt.fr/le-planning-des-evenements-d
+ e-avril-2026-dans-pokemon-go/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:📅 Community Day Forgerette
+DTSTART:20260411T100000
+DTEND:20260411T200000
+UID:MGX-20260411-communitydayfor@pogo.script
+DESCRIPTION:🎁 \n🔗 https://www.margxt.fr/le-planning-des-evenements-d
+ e-avril-2026-dans-pokemon-go/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:📅 Semaine Environnement
+DTSTART:20260414T100000
+DTEND:20260420T200000
+UID:MGX-20260414-semaineenvironn@pogo.script
+DESCRIPTION:🎁 \n🔗 https://www.margxt.fr/le-planning-des-evenements-d
+ e-avril-2026-dans-pokemon-go/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:📅 Journée éclosion
+DTSTART:20260418T100000
+DTEND:20260418T200000
+UID:MGX-20260418-journeclosion@pogo.script
+DESCRIPTION:🎁 \n🔗 https://www.margxt.fr/le-planning-des-evenements-d
+ e-avril-2026-dans-pokemon-go/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:📅 Journée Combat Dynamax
+DTSTART:20260425T100000
+DTEND:20260425T200000
+UID:MGX-20260425-journecombatdyn@pogo.script
+DESCRIPTION:🎁 \n🔗 https://www.margxt.fr/le-planning-des-evenements-d
+ e-avril-2026-dans-pokemon-go/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:📅 Volonté de Fer
+DTSTART:20260408T100000
+DTEND:20260504T200000
+UID:MGX-20260408-volontdefer@pogo.script
+DESCRIPTION:🎁 \n🔗 https://www.margxt.fr/le-planning-des-evenements-d
+ e-avril-2026-dans-pokemon-go/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:📅 Volonté de Fer : Offensive
+DTSTART:20260430T100000
+DTEND:20260504T200000
+UID:MGX-20260430-volontdeferoffe@pogo.script
+DESCRIPTION:🎁 \n🔗 https://www.margxt.fr/le-planning-des-evenements-d
+ e-avril-2026-dans-pokemon-go/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:💥 Kraknoix
+DTSTART:20260406T180000
+DTEND:20260406T190000
+UID:MGX-20260406-kraknoix@pogo.script
+DESCRIPTION:🎁 \n🔗 https://www.margxt.fr/le-planning-des-evenements-d
+ e-avril-2026-dans-pokemon-go/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:💥 Rototaupe
+DTSTART:20260413T180000
+DTEND:20260413T190000
+UID:MGX-20260413-rototaupe@pogo.script
+DESCRIPTION:🎁 \n🔗 https://www.margxt.fr/le-planning-des-evenements-d
+ e-avril-2026-dans-pokemon-go/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:💥 Regirock
+DTSTART:20260420T180000
+DTEND:20260420T190000
+UID:MGX-20260420-regirock@pogo.script
+DESCRIPTION:🎁 \n🔗 https://www.margxt.fr/le-planning-des-evenements-d
+ e-avril-2026-dans-pokemon-go/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:💥 Caratroc
+DTSTART:20260427T180000
+DTEND:20260427T190000
+UID:MGX-20260427-caratroc@pogo.script
+DESCRIPTION:🎁 \n🔗 https://www.margxt.fr/le-planning-des-evenements-d
+ e-avril-2026-dans-pokemon-go/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:⚔️ Regidrago
+DTSTART:20260401T180000
+DTEND:20260401T190000
+UID:MGX-20260401-regidrago@pogo.script
+DESCRIPTION:🎁 \n🔗 https://www.margxt.fr/le-planning-des-evenements-d
+ e-avril-2026-dans-pokemon-go/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:⚔️ Kyogre
+DTSTART:20260408T180000
+DTEND:20260408T190000
+UID:MGX-20260408-kyogre@pogo.script
+DESCRIPTION:🎁 \n🔗 https://www.margxt.fr/le-planning-des-evenements-d
+ e-avril-2026-dans-pokemon-go/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:⚔️ Groudon
+DTSTART:20260415T180000
+DTEND:20260415T190000
+UID:MGX-20260415-groudon@pogo.script
+DESCRIPTION:🎁 \n🔗 https://www.margxt.fr/le-planning-des-evenements-d
+ e-avril-2026-dans-pokemon-go/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:⚔️ Tokorico
+DTSTART:20260422T180000
+DTEND:20260422T190000
+UID:MGX-20260422-tokorico@pogo.script
+DESCRIPTION:🎁 \n🔗 https://www.margxt.fr/le-planning-des-evenements-d
+ e-avril-2026-dans-pokemon-go/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:⚔️ Tokopiyon
+DTSTART:20260429T180000
+DTEND:20260429T190000
+UID:MGX-20260429-tokopiyon@pogo.script
+DESCRIPTION:🎁 \n🔗 https://www.margxt.fr/le-planning-des-evenements-d
+ e-avril-2026-dans-pokemon-go/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🧬 Méga-Élecsprint
+DTSTART:20260401T100000
+DTEND:20260407T200000
+UID:MGX-20260401-mgalecsprint@pogo.script
+DESCRIPTION:🎁 \n🔗 https://www.margxt.fr/le-planning-des-evenements-d
+ e-avril-2026-dans-pokemon-go/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🧬 Méga Ptéra
+DTSTART:20260408T100000
+DTEND:20260414T200000
+UID:MGX-20260408-mgaptra@pogo.script
+DESCRIPTION:🎁 \n🔗 https://www.margxt.fr/le-planning-des-evenements-d
+ e-avril-2026-dans-pokemon-go/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🧬 Méga-Alakazam
+DTSTART:20260415T100000
+DTEND:20260421T200000
+UID:MGX-20260415-mgaalakazam@pogo.script
+DESCRIPTION:🎁 \n🔗 https://www.margxt.fr/le-planning-des-evenements-d
+ e-avril-2026-dans-pokemon-go/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🧬 Méga-Sharpedo
+DTSTART:20260422T100000
+DTEND:20260428T200000
+UID:MGX-20260422-mgasharpedo@pogo.script
+DESCRIPTION:🎁 \n🔗 https://www.margxt.fr/le-planning-des-evenements-d
+ e-avril-2026-dans-pokemon-go/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🧬 Méga-Branette
+DTSTART:20260429T100000
+DTEND:20260505T200000
+UID:MGX-20260429-mgabranette@pogo.script
+DESCRIPTION:🎁 \n🔗 https://www.margxt.fr/le-planning-des-evenements-d
+ e-avril-2026-dans-pokemon-go/
+END:VEVENT
 END:VCALENDAR
