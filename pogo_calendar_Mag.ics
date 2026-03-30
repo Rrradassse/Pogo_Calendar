@@ -1078,4 +1078,12 @@ UID:MGX-20260429-mgabranette@pogo.script
 DESCRIPTION:🎁 \n🔗 https://www.margxt.fr/le-planning-des-evenements-d
  e-avril-2026-dans-pokemon-go/
 END:VEVENT
+BEGIN:VEVENT
+SUMMARY:📅 Journée éclosion Riolu
+DTSTART:20260418T100000
+DTEND:20260418T200000
+UID:MGX-20260418-journeclosionri@pogo.script
+DESCRIPTION:🎁 \n🔗 https://www.margxt.fr/le-planning-des-evenements-d
+ e-avril-2026-dans-pokemon-go/
+END:VEVENT
 END:VCALENDAR
