@@ -1151,12 +1151,12 @@ DESCRIPTION:🎁 \n🔗 https://www.margxt.fr/le-planning-des-evenements-d
  e-mai-2026-dans-pokemon-go/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:⚔️ Tokopisco
-DTSTART:20260527T180000
-DTEND:20260527T190000
+SUMMARY:🐲 Tokopisco
+DTSTART:20260527T100000
+DTEND:20260602T200000
 UID:MGX-20260527-tokopisco@pogo.script
 DESCRIPTION:🎁 \n🔗 https://www.margxt.fr/le-planning-des-evenements-d
- e-mai-2026-dans-pokemon-go/
+ e-juin-2026-dans-pokemon-go/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:🧬 Méga-Camérupt
@@ -1188,6 +1188,30 @@ DTSTART:20260527T100000
 DTEND:20260602T200000
 UID:MGX-20260527-mgacharmina@pogo.script
 DESCRIPTION:🎁 \n🔗 https://www.margxt.fr/le-planning-des-evenements-d
- e-mai-2026-dans-pokemon-go/
+ e-juin-2026-dans-pokemon-go/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:📅 Journée Communauté Frigodo (à confirmer)
+DTSTART:20260620T100000
+DTEND:20260620T200000
+UID:MGX-20260620-journecommunaut@pogo.script
+DESCRIPTION:🎁 \n🔗 https://www.margxt.fr/le-planning-des-evenements-d
+ e-juin-2026-dans-pokemon-go/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:📅 Journée de raids ?
+DTSTART:20260627T100000
+DTEND:20260627T200000
+UID:MGX-20260627-journederaids@pogo.script
+DESCRIPTION:🎁 \n🔗 https://www.margxt.fr/le-planning-des-evenements-d
+ e-juin-2026-dans-pokemon-go/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:💥 Cresselia
+DTSTART:20260506T180000
+DTEND:20260602T190000
+UID:MGX-20260506-cresselia@pogo.script
+DESCRIPTION:🎁 \n🔗 https://www.margxt.fr/le-planning-des-evenements-d
+ e-juin-2026-dans-pokemon-go/
 END:VEVENT
 END:VCALENDAR
