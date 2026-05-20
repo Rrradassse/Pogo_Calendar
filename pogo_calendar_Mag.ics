@@ -1214,4 +1214,28 @@ UID:MGX-20260506-cresselia@pogo.script
 DESCRIPTION:🎁 \n🔗 https://www.margxt.fr/le-planning-des-evenements-d
  e-juin-2026-dans-pokemon-go/
 END:VEVENT
+BEGIN:VEVENT
+SUMMARY:📅 Quête de connaissances de Blanche
+DTSTART:20260526T100000
+DTEND:20260601T200000
+UID:MGX-20260526-qutedeconnaissa@pogo.script
+DESCRIPTION:🎁 \n🔗 https://www.margxt.fr/le-planning-des-evenements-d
+ e-juin-2026-dans-pokemon-go/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:📅 Quête de protection de Spark
+DTSTART:20260602T100000
+DTEND:20260608T200000
+UID:MGX-20260602-qutedeprotectio@pogo.script
+DESCRIPTION:🎁 \n🔗 https://www.margxt.fr/le-planning-des-evenements-d
+ e-juin-2026-dans-pokemon-go/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:📅 Quête de victoire de Candela
+DTSTART:20260609T100000
+DTEND:20260615T200000
+UID:MGX-20260609-qutedevictoired@pogo.script
+DESCRIPTION:🎁 \n🔗 https://www.margxt.fr/le-planning-des-evenements-d
+ e-juin-2026-dans-pokemon-go/
+END:VEVENT
 END:VCALENDAR
