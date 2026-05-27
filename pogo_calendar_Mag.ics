@@ -972,7 +972,7 @@ DTSTART:20260406T180000
 DTEND:20260406T190000
 UID:MGX-20260406-kraknoix@pogo.script
 DESCRIPTION:🎁 \n🔗 https://www.margxt.fr/le-planning-des-evenements-d
- e-mai-2026-dans-pokemon-go/
+ e-avril-2026-dans-pokemon-go/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:💥 Rototaupe
@@ -980,7 +980,7 @@ DTSTART:20260413T180000
 DTEND:20260413T190000
 UID:MGX-20260413-rototaupe@pogo.script
 DESCRIPTION:🎁 \n🔗 https://www.margxt.fr/le-planning-des-evenements-d
- e-mai-2026-dans-pokemon-go/
+ e-avril-2026-dans-pokemon-go/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:💥 Regirock
@@ -988,7 +988,7 @@ DTSTART:20260420T180000
 DTEND:20260420T190000
 UID:MGX-20260420-regirock@pogo.script
 DESCRIPTION:🎁 \n🔗 https://www.margxt.fr/le-planning-des-evenements-d
- e-mai-2026-dans-pokemon-go/
+ e-avril-2026-dans-pokemon-go/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:💥 Caratroc
@@ -996,7 +996,7 @@ DTSTART:20260427T180000
 DTEND:20260427T190000
 UID:MGX-20260427-caratroc@pogo.script
 DESCRIPTION:🎁 \n🔗 https://www.margxt.fr/le-planning-des-evenements-d
- e-mai-2026-dans-pokemon-go/
+ e-avril-2026-dans-pokemon-go/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:⚔️ Regidrago
@@ -1235,6 +1235,166 @@ SUMMARY:📅 Quête de victoire de Candela
 DTSTART:20260609T100000
 DTEND:20260615T200000
 UID:MGX-20260609-qutedevictoired@pogo.script
+DESCRIPTION:🎁 \n🔗 https://www.margxt.fr/le-planning-des-evenements-d
+ e-juin-2026-dans-pokemon-go/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:💥 Doudouvet
+DTSTART:20260504T180000
+DTEND:20260504T190000
+UID:MGX-20260504-doudouvet@pogo.script
+DESCRIPTION:🎁 \n🔗 https://www.margxt.fr/le-planning-des-evenements-d
+ e-mai-2026-dans-pokemon-go/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:💥 Caninos
+DTSTART:20260511T180000
+DTEND:20260511T190000
+UID:MGX-20260511-caninos@pogo.script
+DESCRIPTION:🎁 \n🔗 https://www.margxt.fr/le-planning-des-evenements-d
+ e-mai-2026-dans-pokemon-go/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:💥 Registeel
+DTSTART:20260518T180000
+DTEND:20260518T190000
+UID:MGX-20260518-registeel@pogo.script
+DESCRIPTION:🎁 \n🔗 https://www.margxt.fr/le-planning-des-evenements-d
+ e-mai-2026-dans-pokemon-go/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:💥 Apitrini
+DTSTART:20260525T180000
+DTEND:20260525T190000
+UID:MGX-20260525-apitrini@pogo.script
+DESCRIPTION:🎁 \n🔗 https://www.margxt.fr/le-planning-des-evenements-d
+ e-mai-2026-dans-pokemon-go/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:📅 Flying Taxi
+DTSTART:20260623T100000
+DTEND:20260629T200000
+UID:MGX-20260623-flyingtaxi@pogo.script
+DESCRIPTION:🎁 \n🔗 https://www.margxt.fr/le-planning-des-evenements-d
+ e-juin-2026-dans-pokemon-go/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:📅 Flying Taxi : Offensive
+DTSTART:20260625T100000
+DTEND:20260629T200000
+UID:MGX-20260625-flyingtaxioffen@pogo.script
+DESCRIPTION:🎁 \n🔗 https://www.margxt.fr/le-planning-des-evenements-d
+ e-juin-2026-dans-pokemon-go/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:📅 Journée de Méga-Raids
+DTSTART:20260627T100000
+DTEND:20260627T200000
+UID:MGX-20260627-journedemgaraid@pogo.script
+DESCRIPTION:🎁 \n🔗 https://www.margxt.fr/le-planning-des-evenements-d
+ e-juin-2026-dans-pokemon-go/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:💥 Sepiatop
+DTSTART:20260601T180000
+DTEND:20260601T190000
+UID:MGX-20260601-sepiatop@pogo.script
+DESCRIPTION:🎁 \n🔗 https://www.margxt.fr/le-planning-des-evenements-d
+ e-juin-2026-dans-pokemon-go/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:💥 Élektek
+DTSTART:20260608T180000
+DTEND:20260608T190000
+UID:MGX-20260608-lektek@pogo.script
+DESCRIPTION:🎁 \n🔗 https://www.margxt.fr/le-planning-des-evenements-d
+ e-juin-2026-dans-pokemon-go/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:💥 Nodulithe
+DTSTART:20260615T180000
+DTEND:20260615T190000
+UID:MGX-20260615-nodulithe@pogo.script
+DESCRIPTION:🎁 \n🔗 https://www.margxt.fr/le-planning-des-evenements-d
+ e-juin-2026-dans-pokemon-go/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:💥 Hoothoot
+DTSTART:20260622T180000
+DTEND:20260622T190000
+UID:MGX-20260622-hoothoot@pogo.script
+DESCRIPTION:🎁 \n🔗 https://www.margxt.fr/le-planning-des-evenements-d
+ e-juin-2026-dans-pokemon-go/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:💥 Poichigeon
+DTSTART:20260629T180000
+DTEND:20260629T190000
+UID:MGX-20260629-poichigeon@pogo.script
+DESCRIPTION:🎁 \n🔗 https://www.margxt.fr/le-planning-des-evenements-d
+ e-juin-2026-dans-pokemon-go/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:⚔️ Reshiram
+DTSTART:20260603T180000
+DTEND:20260603T190000
+UID:MGX-20260603-reshiram@pogo.script
+DESCRIPTION:🎁 \n🔗 https://www.margxt.fr/le-planning-des-evenements-d
+ e-juin-2026-dans-pokemon-go/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:⚔️ Zekrom
+DTSTART:20260610T180000
+DTEND:20260610T190000
+UID:MGX-20260610-zekrom@pogo.script
+DESCRIPTION:🎁 \n🔗 https://www.margxt.fr/le-planning-des-evenements-d
+ e-juin-2026-dans-pokemon-go/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:⚔️ Necrozma
+DTSTART:20260617T180000
+DTEND:20260617T190000
+UID:MGX-20260617-necrozma@pogo.script
+DESCRIPTION:🎁 \n🔗 https://www.margxt.fr/le-planning-des-evenements-d
+ e-juin-2026-dans-pokemon-go/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:⚔️ Katagami et Bamboiselle *
+DTSTART:20260624T180000
+DTEND:20260624T190000
+UID:MGX-20260624-katagamietbambo@pogo.script
+DESCRIPTION:🎁 \n🔗 https://www.margxt.fr/le-planning-des-evenements-d
+ e-juin-2026-dans-pokemon-go/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🧬 Méga-Nanméouïe
+DTSTART:20260603T100000
+DTEND:20260609T200000
+UID:MGX-20260603-mgananmoue@pogo.script
+DESCRIPTION:🎁 \n🔗 https://www.margxt.fr/le-planning-des-evenements-d
+ e-juin-2026-dans-pokemon-go/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🧬 Méga-Lockpin
+DTSTART:20260610T100000
+DTEND:20260616T200000
+UID:MGX-20260610-mgalockpin@pogo.script
+DESCRIPTION:🎁 \n🔗 https://www.margxt.fr/le-planning-des-evenements-d
+ e-juin-2026-dans-pokemon-go/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🧬 Méga-Cizayox
+DTSTART:20260617T100000
+DTEND:20260623T200000
+UID:MGX-20260617-mgacizayox@pogo.script
+DESCRIPTION:🎁 \n🔗 https://www.margxt.fr/le-planning-des-evenements-d
+ e-juin-2026-dans-pokemon-go/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🧬 Méga-Roucarnage
+DTSTART:20260624T100000
+DTEND:20260630T200000
+UID:MGX-20260624-mgaroucarnage@pogo.script
 DESCRIPTION:🎁 \n🔗 https://www.margxt.fr/le-planning-des-evenements-d
  e-juin-2026-dans-pokemon-go/
 END:VEVENT
