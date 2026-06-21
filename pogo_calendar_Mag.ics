@@ -1398,4 +1398,45 @@ UID:MGX-20260624-mgaroucarnage@pogo.script
 DESCRIPTION:🎁 \n🔗 https://www.margxt.fr/le-planning-des-evenements-d
  e-juin-2026-dans-pokemon-go/
 END:VEVENT
+BEGIN:VEVENT
+SUMMARY:📅 Taxi Volant
+DTSTART:20260623T100000
+DTEND:20260629T200000
+UID:MGX-20260623-taxivolant@pogo.script
+DESCRIPTION:🎁 \n🔗 https://www.margxt.fr/le-planning-des-evenements-d
+ e-juin-2026-dans-pokemon-go/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:📅 Taxi Volant : Offensive
+DTSTART:20260625T100000
+DTEND:20260629T200000
+UID:MGX-20260625-taxivolantoffen@pogo.script
+DESCRIPTION:🎁 \n🔗 https://www.margxt.fr/le-planning-des-evenements-d
+ e-juin-2026-dans-pokemon-go/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:📅 Journée de Super Méga-Raids Airmure
+DTSTART:20260627T100000
+DTEND:20260627T200000
+UID:MGX-20260627-journedesupermg@pogo.script
+DESCRIPTION:🎁 \n🔗 https://www.margxt.fr/le-planning-des-evenements-d
+ e-juin-2026-dans-pokemon-go/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:⭐️ Marcacrin
+DTSTART:20260618T180000
+DTEND:20260618T190000
+UID:MGX-20260618-marcacrin@pogo.script
+DESCRIPTION:🎁 Bonbon x2 par transfert de Pokémon au professeur\n🔗 h
+ ttps://www.margxt.fr/le-planning-des-evenements-de-juin-2026-dans-pokemon-
+ go/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:⭐️ Goélise
+DTSTART:20260625T180000
+DTEND:20260625T190000
+UID:MGX-20260625-golise@pogo.script
+DESCRIPTION:🎁 Poussière d’étoiles x2 à la capture\n🔗 https://ww
+ w.margxt.fr/le-planning-des-evenements-de-juin-2026-dans-pokemon-go/
+END:VEVENT
 END:VCALENDAR
