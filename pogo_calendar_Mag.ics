@@ -1329,10 +1329,10 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:💥 Poichigeon
 DTSTART:20260629T180000
-DTEND:20260629T190000
+DTEND:20260705T190000
 UID:MGX-20260629-poichigeon@pogo.script
 DESCRIPTION:🎁 \n🔗 https://www.margxt.fr/le-planning-des-evenements-d
- e-juin-2026-dans-pokemon-go/
+ e-juillet-2026-dans-pokemon-go/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:⚔️ Reshiram
@@ -1438,5 +1438,78 @@ DTEND:20260625T190000
 UID:MGX-20260625-golise@pogo.script
 DESCRIPTION:🎁 Poussière d’étoiles x2 à la capture\n🔗 https://ww
  w.margxt.fr/le-planning-des-evenements-de-juin-2026-dans-pokemon-go/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:📅 Fête du 10e anniversaire de Pokémon GO
+DTSTART:20260704T100000
+DTEND:20260706T200000
+UID:MGX-20260704-ftedu10eanniver@pogo.script
+DESCRIPTION:🎁 \n🔗 https://www.margxt.fr/le-planning-des-evenements-d
+ e-juillet-2026-dans-pokemon-go/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:📅 Community Day Larméléon
+DTSTART:20260704T100000
+DTEND:20260704T200000
+UID:MGX-20260704-communitydaylar@pogo.script
+DESCRIPTION:🎁 \n🔗 https://www.margxt.fr/le-planning-des-evenements-d
+ e-juillet-2026-dans-pokemon-go/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:📅 Voie des légendes
+DTSTART:20260706T100000
+DTEND:20260710T200000
+UID:MGX-20260706-voiedeslgendes@pogo.script
+DESCRIPTION:🎁 \n🔗 https://www.margxt.fr/le-planning-des-evenements-d
+ e-juillet-2026-dans-pokemon-go/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:📅 Pokémon GO Fest Global
+DTSTART:20260711T100000
+DTEND:20260712T200000
+UID:MGX-20260711-pokmongofestglo@pogo.script
+DESCRIPTION:🎁 \n🔗 https://www.margxt.fr/le-planning-des-evenements-d
+ e-juillet-2026-dans-pokemon-go/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:📅 Journée de Super Méga-Raids Raichu
+DTSTART:20260718T100000
+DTEND:20260718T200000
+UID:MGX-20260718-journedesupermg@pogo.script
+DESCRIPTION:🎁 \n🔗 https://www.margxt.fr/le-planning-des-evenements-d
+ e-juillet-2026-dans-pokemon-go/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:⭐️ Roucool
+DTSTART:20260702T180000
+DTEND:20260702T190000
+UID:MGX-20260702-roucool@pogo.script
+DESCRIPTION:🎁 XP x2 sur l’évolution\n🔗 https://www.margxt.fr/le-p
+ lanning-des-evenements-de-juillet-2026-dans-pokemon-go/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:⭐️ Nosferapti
+DTSTART:20260716T180000
+DTEND:20260716T190000
+UID:MGX-20260716-nosferapti@pogo.script
+DESCRIPTION:🎁 XP x2 à la capture\n🔗 https://www.margxt.fr/le-planni
+ ng-des-evenements-de-juillet-2026-dans-pokemon-go/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:⭐️ Évoli
+DTSTART:20260723T180000
+DTEND:20260723T190000
+UID:MGX-20260723-voli@pogo.script
+DESCRIPTION:🎁 Bonbon x2 par capture\n🔗 https://www.margxt.fr/le-plan
+ ning-des-evenements-de-juillet-2026-dans-pokemon-go/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:⭐️ Keunotor
+DTSTART:20260730T180000
+DTEND:20260730T190000
+UID:MGX-20260730-keunotor@pogo.script
+DESCRIPTION:🎁 Bonbon x2 par transfert de Pokémon au professeur\n🔗 h
+ ttps://www.margxt.fr/le-planning-des-evenements-de-juillet-2026-dans-pokem
+ on-go/
 END:VEVENT
 END:VCALENDAR
