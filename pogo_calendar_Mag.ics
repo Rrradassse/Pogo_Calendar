@@ -1329,10 +1329,10 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:💥 Poichigeon
 DTSTART:20260629T180000
-DTEND:20260705T190000
+DTEND:20260629T190000
 UID:MGX-20260629-poichigeon@pogo.script
 DESCRIPTION:🎁 \n🔗 https://www.margxt.fr/le-planning-des-evenements-d
- e-juillet-2026-dans-pokemon-go/
+ e-juin-2026-dans-pokemon-go/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:⚔️ Reshiram
@@ -1511,5 +1511,37 @@ UID:MGX-20260730-keunotor@pogo.script
 DESCRIPTION:🎁 Bonbon x2 par transfert de Pokémon au professeur\n🔗 h
  ttps://www.margxt.fr/le-planning-des-evenements-de-juillet-2026-dans-pokem
  on-go/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:💥 Leveinard
+DTSTART:20260706T180000
+DTEND:20260706T190000
+UID:MGX-20260706-leveinard@pogo.script
+DESCRIPTION:🎁 \n🔗 https://www.margxt.fr/le-planning-des-evenements-d
+ e-juillet-2026-dans-pokemon-go/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:💥 Solochi
+DTSTART:20260713T180000
+DTEND:20260713T190000
+UID:MGX-20260713-solochi@pogo.script
+DESCRIPTION:🎁 \n🔗 https://www.margxt.fr/le-planning-des-evenements-d
+ e-juillet-2026-dans-pokemon-go/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:💥 Miamiasme
+DTSTART:20260720T180000
+DTEND:20260720T190000
+UID:MGX-20260720-miamiasme@pogo.script
+DESCRIPTION:🎁 \n🔗 https://www.margxt.fr/le-planning-des-evenements-d
+ e-juillet-2026-dans-pokemon-go/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:💥 Barpau
+DTSTART:20260727T180000
+DTEND:20260727T190000
+UID:MGX-20260727-barpau@pogo.script
+DESCRIPTION:🎁 \n🔗 https://www.margxt.fr/le-planning-des-evenements-d
+ e-juillet-2026-dans-pokemon-go/
 END:VEVENT
 END:VCALENDAR
