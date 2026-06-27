@@ -244,6 +244,7 @@ def main():
     new_data = get_margxt_ultimate() + get_niantic_ultimate()
 
     # 3. Fusionner (Ajout ou Mise à jour)
+    now = datetime.now()
     for item in new_data:
         e = Event()
         e.add('summary', item['summary'])
@@ -251,18 +252,22 @@ def main():
         e.add('dtend', item['end'])
         e.add('description', item['desc'])
         e.add('uid', item['uid'])
-        
+        e.add('dtstamp', now)  # Requis par RFC 5545
+
         db[item['uid']] = e # Écrase l'ancien ou crée le nouveau
 
-    # 4. Sauvegarder
+    # 4. Sauvegarder (trié par date de début)
     cal = Calendar()
     cal.add('prodid', '-//PogoFinal//FR')
     cal.add('version', '2.0')
     cal.add('X-WR-CALNAME', 'PkmGo_Mag')
     cal.add('X-WR-TIMEZONE', 'Europe/Paris')
-    
-    
-    for e in db.values():
+
+    sorted_events = sorted(
+        db.values(),
+        key=lambda e: e.get('dtstart').dt if e.get('dtstart') else datetime.min
+    )
+    for e in sorted_events:
         cal.add_component(e)
 
     with open(FILE_NAME, 'wb') as f:
