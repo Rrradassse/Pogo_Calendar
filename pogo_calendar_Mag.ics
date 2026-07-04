@@ -1544,4 +1544,100 @@ UID:MGX-20260727-barpau@pogo.script
 DESCRIPTION:🎁 \n🔗 https://www.margxt.fr/le-planning-des-evenements-d
  e-juillet-2026-dans-pokemon-go/
 END:VEVENT
+BEGIN:VEVENT
+SUMMARY:📅 Célébration de Pikachu anniversaire spécial
+DTSTART:20260713T100000
+DTEND:20260720T200000
+UID:MGX-20260713-clbrationdepika@pogo.script
+DESCRIPTION:🎁 \n🔗 https://www.margxt.fr/le-planning-des-evenements-d
+ e-juillet-2026-dans-pokemon-go/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:📅 Anniversaire du Professeur Willow
+DTSTART:20260721T100000
+DTEND:20260721T200000
+UID:MGX-20260721-anniversairedup@pogo.script
+DESCRIPTION:🎁 \n🔗 https://www.margxt.fr/le-planning-des-evenements-d
+ e-juillet-2026-dans-pokemon-go/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:📅 ??
+DTSTART:20260721T100000
+DTEND:20260727T200000
+UID:MGX-20260721-@pogo.script
+DESCRIPTION:🎁 \n🔗 https://www.margxt.fr/le-planning-des-evenements-d
+ e-juillet-2026-dans-pokemon-go/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:📅 Atteindre la couche d’ozone de Pokémon GO
+DTSTART:20260725T100000
+DTEND:20260726T200000
+UID:MGX-20260725-atteindrelacouc@pogo.script
+DESCRIPTION:🎁 \n🔗 https://www.margxt.fr/le-planning-des-evenements-d
+ e-juillet-2026-dans-pokemon-go/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:⚔️ Artikodin\, Sulfura et Électhor
+DTSTART:20260701T180000
+DTEND:20260701T190000
+UID:MGX-20260701-artikodinsulfur@pogo.script
+DESCRIPTION:🎁 \n🔗 https://www.margxt.fr/le-planning-des-evenements-d
+ e-juillet-2026-dans-pokemon-go/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:⚔️ Kyogre
+DTSTART:20260715T180000
+DTEND:20260715T190000
+UID:MGX-20260715-kyogre@pogo.script
+DESCRIPTION:🎁 \n🔗 https://www.margxt.fr/le-planning-des-evenements-d
+ e-juillet-2026-dans-pokemon-go/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:⚔️ Solgaleo
+DTSTART:20260722T180000
+DTEND:20260722T190000
+UID:MGX-20260722-solgaleo@pogo.script
+DESCRIPTION:🎁 \n🔗 https://www.margxt.fr/le-planning-des-evenements-d
+ e-juillet-2026-dans-pokemon-go/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:⚔️ Kyurem
+DTSTART:20260729T180000
+DTEND:20260729T190000
+UID:MGX-20260729-kyurem@pogo.script
+DESCRIPTION:🎁 \n🔗 https://www.margxt.fr/le-planning-des-evenements-d
+ e-juillet-2026-dans-pokemon-go/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🧬 Méga-Lucario
+DTSTART:20260701T100000
+DTEND:20260714T200000
+UID:MGX-20260701-mgalucario@pogo.script
+DESCRIPTION:🎁 \n🔗 https://www.margxt.fr/le-planning-des-evenements-d
+ e-juillet-2026-dans-pokemon-go/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🧬 Méga-Jungko
+DTSTART:20260715T100000
+DTEND:20260721T200000
+UID:MGX-20260715-mgajungko@pogo.script
+DESCRIPTION:🎁 \n🔗 https://www.margxt.fr/le-planning-des-evenements-d
+ e-juillet-2026-dans-pokemon-go/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🧬 Méga-Drattak
+DTSTART:20260722T100000
+DTEND:20260728T200000
+UID:MGX-20260722-mgadrattak@pogo.script
+DESCRIPTION:🎁 \n🔗 https://www.margxt.fr/le-planning-des-evenements-d
+ e-juillet-2026-dans-pokemon-go/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🧬 Méga-Galeking
+DTSTART:20260729T100000
+DTEND:20260804T200000
+UID:MGX-20260729-mgagaleking@pogo.script
+DESCRIPTION:🎁 \n🔗 https://www.margxt.fr/le-planning-des-evenements-d
+ e-juillet-2026-dans-pokemon-go/
+END:VEVENT
 END:VCALENDAR
